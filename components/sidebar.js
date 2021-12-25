@@ -12,7 +12,7 @@ import Chat from  "./Chat"
 function Sidebar() {
 
 const [user]=useAuthState(auth);
-const userChatRef = db.collection('chats').where('users','array-contains',user.email)
+const userChatRef = db.collection('chats').where('users','array-contains',user?.email)
 const [chatsSnapshot]=useCollection(userChatRef);
 
   const createChat = () => {
