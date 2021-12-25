@@ -64,6 +64,10 @@ const chatAlreadyExists=(recipientEmial)=>
 }
 
 export default Sidebar;
+
+
+
+
 const Container = styled.div`
 flex:0.45;
 border-rigt:1px solid whitesmoke;
