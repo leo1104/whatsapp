@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Sidebar from '../components/Sidebar'
+import Vertical from '../components/Vertical'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-<Sidebar/>    
+<Vertical/>    
     </div>
   )
 }

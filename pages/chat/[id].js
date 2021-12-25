@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styled from "styled-components";
-import Sidebar from "../../components/Sidebar";
+import Vertical from "../../components/Vertical";
 import ChatScreen from "../../components/ChatScreen";
 import { auth, db } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -13,7 +13,7 @@ function Chat({ chat, messages }) {
       <Head>
         <title>Chat with {getRecipientEmail(chat.users, user)}</title>
       </Head>
-      <Sidebar />
+      <Vertical />
       <ChatContainer>
         <ChatScreen chat={chat} messages={messages} />
       </ChatContainer>
