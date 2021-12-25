@@ -3,25 +3,7 @@ import Head from "next/head";
 import styled from "styled-components";
 import { auth, provider } from "../firebase";
 
-const Container = styled.div`
-  display:grid;
-  place-items:center;
-  height:100vh;
-  background-color:whitesmoke;
-  `;
 
-const LoginContainer = styled.div`
-  padding:100px;
-  align-items:center;
-  display:flex;
-  flex-direction:column;
-  background:white;
-  `;
-
-const Logo = styled.img`
-  margin-bottom:50px;
-  `;
-  
 
 function Login() {
 
@@ -45,3 +27,22 @@ function Login() {
 
 export default Login;
 
+const Container = styled.div`
+  display:grid;
+  place-items:center;
+  height:100vh;
+  background-color:whitesmoke;
+  `;
+
+const LoginContainer = styled.div`
+  padding:100px;
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  background:white;
+  `;
+
+const Logo = styled.img`
+  margin-bottom:50px;
+  `;
+  
