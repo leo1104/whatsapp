@@ -12,8 +12,7 @@ const [recipientSnapshot]= useCollection(db.collection('users').where('email', '
 
 const recipient =recipientSnapshot?.docs?.[0]?.data();
 const recipientEmail = getRecipientEmail(users,user) 
-// console.log(recipientEmail)
-
+// console.log(recipient)
 const enterChat = ()=>{
     router.push(`/chat/${id}`)
 }

@@ -10,7 +10,8 @@ const TypeOfMesage=user === userLoggedIn.email ? Sender : Reciever;
             <TypeOfMesage>{message.message}
             <TimeStamp>
             {message.timestamp ? moment(message.timestamp).format('LT') : "..."}
-            </TimeStamp></TypeOfMesage>
+            </TimeStamp>
+            </TypeOfMesage>
             
         </Conatiner>
     )
@@ -31,16 +32,20 @@ text-align:center;
 `;
 const Sender =styled(MessageElement)`
 margin-left:auto;
-background-color:#dcf8c6;
+border-radius:8px 0 8px 8px;
+background-color:#2C6BED;
+color:white;
 `;
 const Reciever = styled(MessageElement)`
-background-color:whitesmoke;
+
 text-align:left;
+background-color:#F6F6F6;
+border-radius:0 8px 8px 8px;
 `;
 const TimeStamp =styled.span`
-color:grey;
-padding:10px;
+color:#white;
 font-size:9px;
+padding:10px;
 position:absolute;
 bottom:0;
 text-align:right;

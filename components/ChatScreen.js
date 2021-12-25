@@ -81,14 +81,14 @@ const recipient = recipientSnapshot?.docs?.[0]?.data();
               <p>Loading Last active...</p>
             )}
         </HeaderInformation>
-        <HeaderIcons>
+        {/* <HeaderIcons>
 <IconButton>
     <AttachFile/>
 </IconButton>
 <IconButton>
     <MoreVert/>
 </IconButton>
-        </HeaderIcons>
+        </HeaderIcons> */}
       </Header>
 
 <MessageContainer>
@@ -113,6 +113,8 @@ position:sticky;
 background-color:white;
 z-index:100;
 top:0;
+justify-content:center;
+flex-direction:column;
 display:flex;
 padding:11px;
 align-items:center;
@@ -121,13 +123,15 @@ border-bottom:1px solid whitesmoke;
 const HeaderInformation=styled.div`
 margin-left:15px;
 flex:1;
+text-align:center;
 
 > h3{
     margin-bottom:3px;
+    font-size:16px;
 }
 
 >p{
-    font-size:14px;
+    font-size:12px;
     color:grey;
 }
 `;
@@ -136,7 +140,7 @@ const HeaderIcons=styled.div``;
 
 const MessageContainer=styled.div`
 padding:30px;
-background-color:#e5ded8;
+background-color:#ffffff;
 min-height:90vh;
 `;
 
