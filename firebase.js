@@ -1,7 +1,7 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey:process.env.KEY,
+    apiKey:"AIzaSyBdb7Wpk1C5qC1F3J5ZcXHynQnlYqZvg4s",
     authDomain: "whatsapp-ccea8.firebaseapp.com",
     projectId: "whatsapp-ccea8",
     storageBucket: "whatsapp-ccea8.appspot.com",
