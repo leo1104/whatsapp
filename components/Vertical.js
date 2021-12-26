@@ -36,7 +36,7 @@ const chatAlreadyExists=(recipientEmial)=>
   return (
     <Container>
       <Header>
-        <UserAvatar src={user.photoURL} onClick={()=> auth.signOut()} />
+        <UserAvatar src={user.photoURL} onClick={()=> auth.signOut()} title={`Logout from ${user.displayName}`} />
         <p>{user.displayName}</p>
         {/* <IconsContainer>
           <IconButton>
@@ -88,11 +88,16 @@ const Header = styled.div`
   top: 0;
   background-color: white;
   z-index: 1;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 15px;
   height: 80px;
   border-bottom: 1px solid whitesmoke;
+
+  >p{
+    font-weight:700;
+    font-family:Inter;
+  }
 `;
 
 const Search = styled.div`
