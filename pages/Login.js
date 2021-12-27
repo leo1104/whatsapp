@@ -19,7 +19,7 @@ function Login() {
 
       <LoginContainer>
        <img src="/antleria_logo.svg"/>
-<p style={{fontFamily: "Inter",
+<p style={{fontFamily:` 'Inter', sans-serif`,
 fontSize: "32px",
 fontStyle: "normal",
 fontWeight: 700,

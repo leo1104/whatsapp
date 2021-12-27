@@ -96,7 +96,7 @@ const Header = styled.div`
 
   >p{
     font-weight:700;
-    font-family:Inter;
+    font-family: 'Inter', sans-serif;
   }
 `;
 
