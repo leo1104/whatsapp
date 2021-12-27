@@ -18,24 +18,7 @@ function Login() {
       </Head>
 
       <LoginContainer>
-       <svg width="346.24" height="341.31" viewBox="0 0 508 471" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M264.193 301.795C266.995 298.667 266.901 293.905 263.978 290.89L162.367 186.053C155.996 179.48 145.367 187.026 149.471 195.208L219.665 335.127C222.195 340.17 229.011 341.08 232.775 336.876L264.193 301.795Z" fill="#2C6BED"/>
-<g filter="url(#filter0_d_124_2)">
-<path d="M407.93 194.588C179.004 182.001 448.372 559.587 123.87 160.931C116.79 152.233 124.045 138.94 135.05 141.097L407.93 194.588Z" fill="#0D0D0D"/>
-</g>
-<defs>
-<filter id="filter0_d_124_2" x="21.0613" y="44.8637" width="486.868" height="403.404" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="50"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_124_2"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_124_2" result="shape"/>
-</filter>
-</defs>
-</svg>
+       <img src="/antleria_logo.svg"/>
 <p style={{fontFamily: "Inter",
 fontSize: "32px",
 fontStyle: "normal",
